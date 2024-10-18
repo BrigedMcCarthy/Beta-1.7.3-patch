@@ -988,7 +988,7 @@ public class Minecraft implements Runnable {
 
 			var7 = null;
 			var7 = new World(this.theWorld, WorldProvider.getProviderForDimension(-1));
-			this.changeWorld(var7, "Entering the Nether", this.thePlayer);
+			this.changeWorld(var7, "Entering", this.thePlayer);
 		} else {
 			var1 *= var5;
 			var3 *= var5;
@@ -999,7 +999,7 @@ public class Minecraft implements Runnable {
 
 			var7 = null;
 			var7 = new World(this.theWorld, WorldProvider.getProviderForDimension(0));
-			this.changeWorld(var7, "Leaving the Nether", this.thePlayer);
+			this.changeWorld(var7, "Leaving", this.thePlayer);
 		}
 
 		this.thePlayer.worldObj = this.theWorld;
