@@ -12,7 +12,7 @@ public class GuiWhatDoYouWantToName extends GuiScreen {
 	public GuiWhatDoYouWantToName(String defaultName, Consumer<String> cont) {
 		this.defaultName = defaultName;
 		this.cont = cont;
-		this.title = StringTranslate.getInstance().translateKey("What do you want to name this world?");
+		this.title = StringTranslate.getInstance().translateKey("World Name?");
 	}
 	
 	public void initGui() {
